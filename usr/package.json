@@ -1,0 +1,22 @@
+{
+  "name": "discord-auto-seller-bot",
+  "version": "1.0.0",
+  "description": "Discord auto account selling bot with VietQR, Crypto, and Tickets",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "register": "node src/scripts/register-commands.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.14.1",
+    "dotenv": "^16.4.5",
+    "better-sqlite3": "^9.4.3",
+    "crypto-js": "^4.2.0",
+    "axios": "^1.6.7",
+    "qrcode": "^1.5.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
